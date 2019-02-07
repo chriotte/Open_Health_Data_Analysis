@@ -1,9 +1,9 @@
 # Open Health Data Analysis 
  
-Devices such as Fitbit et al can measure the body 24/7, but unfortunately, it can be difficult to extract and access this data. The goal of this repository is to have a set of scripts that fetches the full datasets and then does some clever analysis of the data. 
+Devices such as Fitbit et al can measure the body 24/7, but unfortunately, it can be difficult to extract and access this data. The goal of this repository is to have a set of scripts that fetch the full datasets and then does some clever analysis of the data. 
 
-## Collaboraters needed
-This project started out as a simple script that has gradually been extended, collaborators are very welcome to clean up scripts, extend them, as well as add scripts for more devices and data sources. 
+## Collaborators needed
+This project started out as a simple script that has gradually been extended, collaborators are very welcome to clean up scripts, extend them, as well as add scripts for more devices and data sources. The project is under construction and continuous improvements can be expected. 
 
 ### Current state of the project: 
 #### Fitbit
