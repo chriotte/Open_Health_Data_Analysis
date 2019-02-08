@@ -5,6 +5,9 @@ Devices such as Fitbit et al can measure the body 24/7, but unfortunately, it ca
 ## Collaborators needed
 This project started out as a simple script that has gradually been extended, collaborators are very welcome to clean up scripts, extend them, as well as add scripts for more devices and data sources. The project is under construction and continuous improvements can be expected. 
 
+### Folder Structure
+Currently, the project is divided into subfolders denoting the name of the app/device/service the scripts are referring to. This structure is not optimal, and will for sure change in the future as the project matures. To add a new script, please add it to accompanying folder or create a new folder if you have code for a new device or service. 
+
 ### Current state of the project: 
 #### Fitbit
 1. get_fitbit_steps_and_hr_data.py 
@@ -18,16 +21,16 @@ Contains a script to write nutrition data from other sources such as myfitnesspa
 Handles connections to the Fitbit API, through the [Python Fitbit](https://github.com/orcasgit/python-fitbit) project.
 
 #### Other
-1. readAppleHealth.py
+1. Apple - readAppleHealth.py
 Converts data from Apple Health to a pandas dataframe. Based on this [Github Repository](https://gist.github.com/thomaswilley/5079f1106b1ddf2c71b6)
-2. get_yolanda.py
+2. Yolanda - get_yolanda.py
 Imports and plots data from exported .csv from Yolanda smart scales
 3. EliteHRV
-This script has been moved to a [seperate repo](https://github.com/chriotte/EliteHRV_to_dataframe). 
+This script is maintained in a [seperate repo](https://github.com/chriotte/EliteHRV_to_dataframe). 
 Reads and plots RR intervals from EliteHRV
 
 
-## Getting Started
+## Getting Started with Fitbit code
 
 UPDATE: use this tutorial to get keys from Fitbit https://towardsdatascience.com/collect-your-own-fitbit-data-with-python-ff145fa10873
 
